@@ -1,0 +1,111 @@
+body {
+  font-family: sans-serif;
+}
+.navbar > .container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+.section {
+  padding: 50px 0px;
+  background-color: #f2f2f2;
+}
+
+.banner {
+  position: relative;
+  height: 186px;
+}
+
+.banner::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url(../img/flymedi-banner.webp) no-repeat top;
+  background-size: cover !important;
+  z-index: -1;
+}
+.banner::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0.47;
+  background-image: linear-gradient(121deg, #006fb2 33%, #01aedd 73%);
+  z-index: -1;
+}
+
+.banner .breadcrumbs {
+  height: 40px;
+  line-height: 40px;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.26);
+}
+
+.banner .breadcrumbs ul {
+  list-style-type: none;
+}
+
+.banner .breadcrumbs ul li {
+  float: left;
+  margin-right: 8px;
+  color: rgba(255, 255, 255, 0.96);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.banner .breadcrumbs ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner .breadcrumbs ul li:last-child {
+  color: #c7e1ef;
+  font-weight: normal;
+}
+
+footer {
+  padding: 50px 0px;
+  background-image: linear-gradient(123deg, #006fb2 33%, #01aedd 74%);
+}
+
+.menu-header {
+  line-height: 25px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 6px;
+  display: block;
+}
+
+footer ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+footer ul li a {
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #fff;
+}

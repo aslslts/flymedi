@@ -1,7 +1,14 @@
 body {
   font-family: sans-serif;
 }
-h2 {
+span {
+  font-size: 14px;
+}
+.listing-content {
+  padding: 10px;
+  height: 150px;
+  overflow: auto;
+  background-color: #f4f4f4;
 }
 .navbar > .container {
   padding-top: 15px;

@@ -92,6 +92,175 @@ span {
   overflow: auto;
   background-color: #f4f4f4;
 }
+
+.sorted {
+  background-color: #ebebeb;
+  padding: 16px;
+  margin-bottom: 26px;
+}
+
+.company-header {
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+.company-header span{
+  font-weight: normal;
+}
+
+.company-list {
+  margin-top: 16px;
+}
+
+.company-list img.company-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.company-list small {
+  font-size: 12px;
+}
+.company-list .title {
+  display: flex;
+  align-items: center;
+}
+.company-list .title b {
+  color: #3e3e3e;
+  font-size: 24px;
+  font-weight: 700;
+}
+.company-list .title img {
+  height: 24px;
+  margin-left: 6px;
+}
+.company-list .icons {
+  padding: 10px 0;
+}
+.company-list .icons i{
+  margin-right: 17px;
+  font-size: 27px;
+}
+
+.check-list {
+  padding-left: 0;
+  list-style: none;
+}
+.company-list-item {
+  margin-bottom: 40px;
+}
+
+.check-list li {
+  display: flex;
+  position: relative;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.check-list li::before {
+  content: "";
+  font-family: flymedi!important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #00e67c;
+  font-size: 16px;
+  margin-right: 5px;
+}
+.learn-more{
+  color: #000;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 13px;
+}
+.learn-more:hover{
+  color: #000;
+}
+.from {
+  border-left: 1px solid #c4c4c4;
+  text-align: center;
+}
+.from .head-six{
+  font-size: 14px;
+  color: #767676;
+  font-weight: 400;
+}
+.from .price {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 16px 0px;
+  display: block;
+}
+.from button {
+  width: 158px;
+  height: 43px;
+  background-image: linear-gradient(242deg,#ffd35c 31%,#ffbb04 66%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 43px;
+  margin: auto;
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 12px;
+  border: none;
+}
+.from .reviews span {
+  font-size: 12px;
+  font-weight: 300;
+  color: #000;
+  text-decoration: underline;
+}
+
+select {
+  background-color: white;
+  border: none;
+  height: 35px;
+  font-size: 12px;
+  width: 180px;
+  outline: none;
+  padding-left: 10px;
+  color: #3e3e3e;
+}
+.load-more-clients{
+  text-align: center;
+  padding: 40px 0;
+}
+.load-more-clients .info span{
+  font-size: 12px;
+  color: #767676;
+  margin-bottom: 12px;
+  display: inline-block;
+}
+.load-more-clients .progress-bar {
+  background-color: #3e3e3e;
+  border-radius: 28px;
+}
+.load-more-clients button {
+    margin: 20px auto 0;
+    border: solid 1px #3e3e3e;
+    text-align: center;
+    color: #3e3e3e;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    width: 286px;
+    height: 49px;
+    background-color: #fff;
+}
+.progress {
+  height: 4px;
+}
 .navbar > .container {
   padding-top: 15px;
   padding-bottom: 15px;

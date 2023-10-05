@@ -4,6 +4,88 @@ body {
 span {
   font-size: 14px;
 }
+.header {
+  padding: 35px 0;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 36px;
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.result {
+  margin-top: 40px;
+}
+.accordion-button {
+  outline: none;
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 0px;
+}
+
+.accordion-item:first-child .accordion-button {
+  padding-top: 0px;
+}
+.accordion-item .accordion-button {
+  padding-right: 10px;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-button::after {
+  content: "+";
+  width: auto !important;
+  height: auto !important;
+  background-image: none !important;
+  transition: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  color: black !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "-";
+  background-image: none !important;
+}
+.accordion-body {
+  padding: 0px;
+  padding-top: 8px;
+}
+.accordion-body ul {
+  padding: 0px;
+}
+.accordion-body ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.accordion-body ul li a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.accordion-body ul li a:before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  border: solid 1px #bcbcbc;
+  border-radius: 10px;
+  display: inline-block;
+  margin-right: 7px;
+}
+.accordion-body ul li span {
+  font-size: 12px;
+}
 .listing-content {
   padding: 10px;
   height: 150px;
@@ -30,7 +112,6 @@ span {
 
 .banner {
   position: relative;
-  height: 186px;
 }
 
 .banner::before {
@@ -67,6 +148,7 @@ span {
 
 .banner .breadcrumbs ul {
   list-style-type: none;
+  padding: 0px;
 }
 
 .banner .breadcrumbs ul li {
@@ -117,4 +199,136 @@ footer ul li a {
 
 footer ul li a:hover {
   color: #fff;
+}
+
+@font-face {
+  font-family: flymedi;
+  src: url(../fonts/icons/flymedi.eot?nx09kg);
+  src: url(../fonts/icons/flymedi.eot?nx09kg#iefix) format("embedded-opentype"),
+    url(../fonts/icons/flymedi.ttf?nx09kg) format("truetype"),
+    url(../fonts/icons/flymedi.woff?nx09kg) format("woff"),
+    url(../fonts/icons/flymedi.svg?nx09kg#flymedi) format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+[class*=" fi-"],
+[class^="fi-"] {
+  font-family: flymedi !important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fi-clock:before {
+  content: "";
+}
+
+.fi-patient:before {
+  content: "";
+}
+
+.fi-mail:before {
+  content: "";
+}
+
+.fi-arrow-right:before {
+  content: "";
+}
+
+.fi-hotel-pick-up:before {
+  content: "";
+}
+
+.companyList .content .collapseMain .commentCarousel .owl-nav .owl-next:before,
+.companyList .content .collapseMain .commentCarousel .owl-nav .owl-prev:before,
+.companyList .content .from .reviews.hasComment.collapsed:before,
+.companyList .content .from .reviews.hasComment:before,
+.fi-angle-arrow-down:before,
+.fi-angle-arrow-left:before,
+.fi-angle-arrow-right:before,
+.fi-angle-arrow-up:before,
+.fi-angle-arrow:before,
+.searchBox .content .group ul li a:before {
+  content: "";
+}
+
+.fi-bold-arrow-down:before,
+.fi-bold-arrow-left:before,
+.fi-bold-arrow-right:before,
+.fi-bold-arrow-up:before,
+.fi-bold-arrow:before {
+  content: "";
+}
+
+.fi-guaranteed:before {
+  content: "";
+}
+
+.fi-search:before {
+  content: "";
+}
+
+.fi-tick-success:before {
+  content: "";
+}
+
+.fi-whatsapp:before {
+  content: "";
+}
+
+.fi-facebook:before {
+  content: "";
+}
+
+.fi-twitter:before {
+  content: "";
+}
+
+.fi-instagram:before {
+  content: "";
+}
+
+.fi-youtube:before {
+  content: "";
+}
+
+.fi-airport-pick-up:before {
+  content: "";
+}
+
+.fi-hotel-booking:before {
+  content: "";
+}
+
+.fi-translation-services:before {
+  content: "";
+}
+
+.fi-visa-travel-office:before {
+  content: "";
+  color: #575756;
+}
+
+.fi-free-wifi:before,
+.fi-wifi:before {
+  content: "";
+}
+
+.fi-local-guide:before {
+  content: "";
+}
+
+.fi-healthcare-services:before {
+  content: "";
+}
+
+.fi-visit-places:before {
+  content: "";
 }
